@@ -1,0 +1,120 @@
+* body{
+padding: 0;
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+/* overflow-y: hidden; */
+
+}
+.disclaimer-cont
+{
+    height: 0px;
+    background: green;
+    
+}
+.disclaimer
+{
+     background-color: red;
+     padding: 10px 20px 10px 20px;
+     text-align: center;
+        /* animation-duration: 10s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    } */
+}
+.header{
+    background: green;
+    
+}
+#currentstatus
+{
+font-size: 30px;
+text-align: center;
+padding-top: 10px;
+}
+.status{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    /* background-color: lightgreen; */
+    gap: 70px;
+
+
+}
+.badge{
+    background-color: lightgreen;
+    padding: 7px;
+    border-radius: 10px;  
+    width: 120px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map-view img
+{
+    width: 100%;
+    height:411px
+}
+#arrive-time{
+    -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        /* font-family: sans-serif; */
+        text-align: center;
+        text-decoration: none;
+        width: 100px; 
+      }
+      @keyframes glowing {
+        0% {
+          background-color:  lightgreen;
+          box-shadow: 0 0 5px  lightgreen;
+        }
+        50% {
+          background-color:  lightgreen;
+          box-shadow: 0 0 20px  lightgreen;
+        }
+        100% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+      
+}
+#arrive-time{
+    animation: glowing 1300ms infinite;
+
+}
+.btnn
+{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  background-color:green;
+}
+.btn
+{
+  height: 50px;
+  
+}
+#driver-details{
+  background: white;
+}
+.driver
+{
+  height: 0px;
+  height: 71px;
+}
+

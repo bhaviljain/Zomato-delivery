@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="zomato.css">
+</head>
+<body>
+     <div class="disclaimer-cont">
+        <div class="disclaimer">
+            "Thank You for ordering with us"
+        </div>
+     </div>
+     <div class="header">
+        <p id="currentstatus"> Waiting for restaurant to accept</p>
+        <div class="status">
+            <p class="badge" id="status-time">ON Time</p>
+            <p class="badge" id="arrive-time">Arriving in 25 Mins </p>
+        </div>
+        </div>
+        <div id="map-view">
+        <img id="map=view" src="map.jpg">
+     </div>
+     <div id="driver-details">
+    <img class="driver" id="call" src="driver.png">
+    <div class="driver-status none" 
+     id="found-driver">
+        <p class="driver-info">hello, i'm suresh, your valet</p>
+        <p class="driver-msg">Hello mein restaurant mein hoon, aapko koi message dena hain</p>
+    </div>
+    <div class="driver-status" id="finding-driver">
+    <p class="driver-info">We are searching for Valet near you</p>
+    </div>
+     </div>
+     </div>
+     <div class="btnn">
+     <button id="find" class="btn">Lets Find Valet</button>
+     <button id="accept-order" class="btn">Ask restaurant for order</button>
+     <button id="order-delivered" class="btn">Deliver order</button>
+    </div>
+    </div>
+     <script src="zomato.js"></script>
+</body> 
+</html>
